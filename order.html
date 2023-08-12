@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- character encoding -->
+    <meta charset="UTF-8" />
+    <!-- Page description -->
+    <meta name="description" contents="MacN'Tees Order Page" />
+    <!-- Viewport settings to scale for device sizes -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- title -->
+    <title>MacN'Tees Order Page</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <!-- scripts -->
+    <script src="scripts/scripts.js" async></script>
+  </head>
+  <!-- body -->
+  <body>
+    <!-- header -->
+    <header>
+      <div class="logo">
+        <img
+          src="images/Logo.png"
+          alt="Logo"
+          style="width: 300px; height: 300px"
+        />
+      </div>
+      <div class="title">
+        <h1>MacN'Tees</h1>
+        <h2>Custom TShirts</h2>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="order.html">Order</a></li>
+          <li><a href="##">About</a></li>
+          <li><a href="mailto:jallen128652@mymail.tstc.edu">Email</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- main -->
+    <main>
+      <div class="form">
+        <form method="get" id="order">
+          <div>
+            <h2>Order Form</h2>
+            <div class="upload">
+              <label for="textarea">Upload Design:</label>
+              <textarea
+                name="textarea"
+                id="textarea"
+                cols="35"
+                rows="2"
+              ></textarea>
+              <button type="browse">BROWSE</button>
+              <button type="submit">SUBMIT</button>
+            </div>
+            <fieldset id="item" name="c_item">
+              <legend>What would you like to order?</legend>
+              <input id="crew" name="crew" type="checkbox" value="15" />
+              <label for="crew"
+                ><br />Crew Neck $15<br />
+                <img
+                  src="images/crew.jpg"
+                  style="width: 250px; height: 250px"
+                />
+                <select name="size" id="size1">
+                  <option value="CS">--Choose Size--</option>
+                  <option value="sml">small</option>
+                  <option value="med">medium</option>
+                  <option value="lrg">large</option>
+                  <option value="xlrg">x-large</option>
+                </select>
+                <select name="color" id="color1">
+                  <option value="CC">--Choose Color--</option>
+                  <option value="gray">gray</option>
+                  <option value="white">white</option>
+                  <option value="black">black</option>
+                  <option value="red">red</option>
+                </select>
+                <select name="qty" id="qty1">
+                  <option value="0">--Choose Qty--</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select> </label
+              ><br />
+              <input id="vee" name="vee" type="checkbox" value="15" />
+              <label for="vee"
+                ><br />V-Neck $15<br /><img
+                  src="images/vneck.jpg"
+                  style="width: 250px; height: 250px"
+                />
+                <select name="size" id="size2">
+                  <option value="CS">--Choose Size--</option>
+                  <option value="sml">small</option>
+                  <option value="med">medium</option>
+                  <option value="lrg">large</option>
+                  <option value="xlrg">x-large</option>
+                </select>
+                <select name="color" id="color2">
+                  <option value="CC">--Choose Color--</option>
+                  <option value="gray">gray</option>
+                  <option value="white">white</option>
+                  <option value="black">black</option>
+                  <option value="red">red</option>
+                </select>
+                <select name="qty" id="qty2">
+                  <option value="0">--Choose Qty--</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select> </label
+              ><br />
+              <input id="swtr" name="swtr" type="checkbox" value="10" />
+              <label for="swtr"
+                ><br />Sweater $10<br />
+                <img
+                  src="images/sweater.jpg"
+                  style="width: 250px; height: 250px"
+                />
+                <select name="size" id="size3">
+                  <option value="CS">--Choose Size--</option>
+                  <option value="sml">small</option>
+                  <option value="med">medium</option>
+                  <option value="lrg">large</option>
+                  <option value="xlrg">x-large</option>
+                </select>
+                <select name="color" id="color3">
+                  <option value="CC">--Choose Color--</option>
+                  <option value="gray">gray</option>
+                  <option value="white">white</option>
+                  <option value="black">black</option>
+                  <option value="red">red</option>
+                </select>
+                <select name="qty" id="qty3">
+                  <option value="0">--Choose Qty--</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select> </label
+              ><br />
+              <input id="hoodie" name="hoodie" type="checkbox" value="35" />
+              <label for="hoodie"
+                ><br />Hoodie $35<br />
+                <img
+                  src="images/hoodie.jpg"
+                  style="width: 250px; height: 250px"
+                />
+                <select name="size" id="size4">
+                  <option value="CS">--Choose Size--</option>
+                  <option value="sml">small</option>
+                  <option value="med">medium</option>
+                  <option value="lrg">large</option>
+                  <option value="xlrg">x-large</option>
+                </select>
+                <select name="color" id="color4">
+                  <option value="CC">--Choose Color--</option>
+                  <option value="gray">gray</option>
+                  <option value="white">white</option>
+                  <option value="black">black</option>
+                  <option value="red">red</option>
+                </select>
+                <select name="qty" id="qty4">
+                  <option value="0">--Choose Qty--</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select> </label
+              ><br />
+            </fieldset>
+            <fieldset class="ship">
+              <legend>Shipping?</legend>
+              <input
+                id="s_pickup"
+                name="ship"
+                type="radio"
+                value="pickup"
+                checked
+              />
+              <label for="t_pickup">Pickup (no charge)</label><br />
+
+              <input id="s_usps" name="ship" type="radio" value="usps" />
+              <label for="t_usps">USPS ($10, takes ~1 week)</label><br />
+
+              <input id="s_fedex" name="ship" type="radio" value="fedex" />
+              <label for="t_fedex">Fedex ($7, takes ~3 days)</label><br />
+            </fieldset>
+            <ul class="contact">
+              <legend>Contact Information</legend>
+
+              <li>
+                <label for="name">Name:</label>
+                <input name="name" id="name" type="text" />
+              </li>
+              <li>
+                <label for="email">Email:</label>
+                <input
+                  name="email"
+                  id="email"
+                  type="email"
+                  placeholder="me@example.com"
+                />
+              </li>
+
+              <li>
+                <label for="address">Address:</label>
+                <input
+                  name="address"
+                  id="address"
+                  type="text"
+                  placeholder="ex: 6 Bushway dr. Dallas"
+                />
+              </li>
+              <li>
+                <label for="city">City:</label>
+                <input
+                  name="city"
+                  id="city"
+                  type="text"
+                  placeholder="ex: Dallas"
+                />
+              </li>
+
+              <legend></legend>
+              <li>
+                <label for="state">State:</label>
+                <select name="state" id="state">
+                  <option value="CS">--Choose State--</option>
+                  <option value="TX">Texas (8.25% tax)</option>
+                  <option value="OR">Oregon (no sales tax)</option>
+                </select>
+              </li>
+
+              <li>
+                <label for="zip">Zip Code:</label>
+                <input
+                  name="zip"
+                  id="zip"
+                  type="text"
+                  placeholder="ex: 77605"
+                />
+              </li>
+              <li>
+                <label for="phone">Phone:</label>
+                <input
+                  name="phone"
+                  id="phone"
+                  type="text"
+                  placeholder="ex: 8885551234"
+                />
+              </li>
+            </ul>
+          </div>
+          <div class="comment">
+            <label for="textarea">Comments:</label>
+            <textarea
+              name="textarea"
+              id="textarea"
+              cols="35"
+              rows="3"
+            ></textarea>
+            <br />
+
+            <button type="submit">SUBMIT</button>
+            <button type="reset">RESET</button>
+          </div>
+          <div id="results">
+            <div class="receipt">
+              <h3>Order Receipt:</h3>
+              <p id="oname"></p>
+              <p id="oemail"></p>
+              <p id="oaddy"></p>
+              <p id="ocity"></p>
+              <p id="ophone"></p>
+              <p>You ordered:</p>
+              <p id="oColorQtyType"></p>
+              <p id="sub"></p>
+              <p id="tax"></p>
+              <p id="ship"></p>
+              <p id="ototal"></p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer>
+      <!-- Copyright info -->
+      <p>
+        Copyright 2023 -
+        <a href="mailto:jallen128652@mymail.tstc.edu">James Allen </a
+        >&copy;<br />
+        1(800)555-5555
+      </p>
+    </footer>
+  </body>
+</html>
